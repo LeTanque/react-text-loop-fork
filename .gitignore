@@ -26,3 +26,6 @@ es/
 lib/
 examples/cache/
 examples/dist/
+
+# Environment vars
+.env

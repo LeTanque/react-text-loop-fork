@@ -1,8 +1,14 @@
 # react-text-loop-fork
 
-![text-loop2](https://cloud.githubusercontent.com/assets/38172/24254063/d5e9c38c-0fd9-11e7-9b75-46dc00421cd7.gif)
+## Forked from [react-text-loop](https://github.com/letanque/react-text-loop)
 
-## Forked from [react-text-loop](https://github.com/braposo/react-text-loop)
+This is an imported (technically not a fork) version of `react-text-loop`. The last update to 
+`react-text-loop` was 3 years ago and struggles with dependencies on newer projects, as a result.
+While I normally would submit a pull request to the original open source project, I wanted a little
+more control to customize and bring this version up to date with the modern React/Next ecosystem.
+
+
+![text-loop2](https://cloud.githubusercontent.com/assets/38172/24254063/d5e9c38c-0fd9-11e7-9b75-46dc00421cd7.gif)
 
 An animated loop of text nodes for your headings. Uses
 [react-motion](https://github.com/chenglou/react-motion) for the transition so it handles super fast
@@ -10,7 +16,6 @@ animations and spring params.
 
 [![npm version][version-badge]][npm]
 [![npm downloads][downloads-badge]][npm]
-[![gzip size][size-badge]][size]
 [![MIT License][license-badge]][license]
 [![PRs Welcome][prs-badge]][prs]
 
@@ -18,7 +23,15 @@ animations and spring params.
 
 ## Installation
 
-`npm install react-text-loop-fork` or `yarn add react-text-loop-fork`
+For now, this package is installable by referencing this repo directly. In your `package.json`, add:
+
+```json
+"dependencies": {
+    "react-text-loop-fork": "git@github.com:LeTanque/react-text-loop-fork.git",
+}
+```
+
+After manually adding, re-install dependencies. 
 
 ## How to use
 
@@ -103,26 +116,20 @@ each node.
 <TextLoop springConfig={{ stiffness: 180, damping: 8 }}>...</TextLoop>;
 ```
 
-For many other examples, please have a look at the [CodeSandbox playground][codesandbox].
-
 ## Contributing
 
 Please follow our
-[contributing guidelines](https://github.com/braposo/react-text-loop/blob/master/CONTRIBUTING.md).
+[contributing guidelines](https://github.com/letanque/react-text-loop-fork/blob/master/CONTRIBUTING.md).
 
 ## License
 
-[MIT](https://github.com/braposo/react-text-loop/blob/master/LICENSE)
+[MIT](https://github.com/letanque/react-text-loop-fork/blob/master/LICENSE)
 
 [npm]: https://www.npmjs.com/package/react-text-loop
-[license]: https://github.com/braposo/react-text-loop/blob/master/LICENSE
+[license]: https://github.com/letanque/react-text-loop-fork/blob/master/LICENSE
 [prs]: http://makeapullrequest.com
-[size]: https://unpkg.com/react-text-loop/dist/react-text-loop.min.js
 [version-badge]: https://img.shields.io/npm/v/react-text-loop.svg?style=flat-square
 [downloads-badge]: https://img.shields.io/npm/dm/react-text-loop.svg?style=flat-square
 [license-badge]: https://img.shields.io/npm/l/react-text-loop.svg?style=flat-square
-[size-badge]: http://img.badgesize.io/https://unpkg.com/react-text-loop/dist/react-text-loop.min.js?compression=gzip&style=flat-square
 [modules-badge]: https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20esm-green.svg?style=flat-square
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[codesandbox-badge]: https://codesandbox.io/static/img/play-codesandbox.svg
-[codesandbox]: https://codesandbox.io/s/react-text-loop-playground-br4q1

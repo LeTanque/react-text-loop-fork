@@ -24,7 +24,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/braposo/react-text-loop.git"
+        "url": "git@github.com:LeTanque/react-text-loop-fork.git"
     },
     "files": [
         "es",
@@ -43,15 +43,11 @@
         "motion"
     ],
     "author": {
-        "name": "Bernardo Raposo",
-        "email": "hi@bernardoraposo.com",
-        "url": "http://bernardoraposo.com"
+        "name": "Frank Martinez",
+        "email": "frank.ie.martinez@gmail.com"
     },
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/braposo/react-text-loop/issues"
-    },
-    "homepage": "https://github.com/braposo/react-text-loop#readme",
+    "homepage": "https://github.com/LeTanque/react-text-loop-fork#readme",
     "devDependencies": {
         "@babel/cli": "^7.7.5",
         "@babel/core": "^7.7.5",
@@ -83,8 +79,8 @@
         "npm-run-all": "^4.1.5",
         "parcel-bundler": "^1.12.4",
         "prettier": "^1.19.1",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0",
+        "react": "15.0.1 - ^18.0.0",
+        "react-dom": "15.0.1 - ^18.0.0",
         "rimraf": "^3.0.0",
         "source-map-loader": "^0.2.4",
         "ts-jest": "^24.2.0",
@@ -93,12 +89,12 @@
         "webpack-cli": "^3.3.10"
     },
     "peerDependencies": {
-        "react": "^15.0.1 || ^16.0.1",
-        "react-dom": "^15.0.1 || ^16.0.1"
+        "react": "15.0.1 - ^18.0.0",
+        "react-dom": "15.0.1 - ^18.0.0"
     },
     "dependencies": {
         "cxs": "^6.2.0",
         "react-fast-compare": "2.0.4",
-        "react-motion": "^0.5.2"
+        "react-motion": "git@github.com:LeTanque/react-v18-motion.git"
     }
 }
