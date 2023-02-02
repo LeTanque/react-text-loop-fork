@@ -1,6 +1,8 @@
-## react-text-loop
+# react-text-loop-fork
 
 ![text-loop2](https://cloud.githubusercontent.com/assets/38172/24254063/d5e9c38c-0fd9-11e7-9b75-46dc00421cd7.gif)
+
+## Forked from [react-text-loop](https://github.com/braposo/react-text-loop)
 
 An animated loop of text nodes for your headings. Uses
 [react-motion](https://github.com/chenglou/react-motion) for the transition so it handles super fast
@@ -16,18 +18,16 @@ animations and spring params.
 
 ## Installation
 
-`npm install react-text-loop` or `yarn add react-text-loop`
+`npm install react-text-loop-fork` or `yarn add react-text-loop-fork`
 
 ## How to use
 
-[![Edit react-text-loop][codesandbox-badge]][codesandbox]
-
-You can also run the examples by cloning the repo and running `yarn start`.
+You can run the examples by cloning the repo and running `yarn start`.
 
 ### Usage
 
 ```jsx
-import TextLoop from "react-text-loop";
+import TextLoop from "react-text-loop-fork";
 import Link from "react-router";
 import { BodyText } from "./ui";
 
